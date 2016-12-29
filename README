@@ -1,0 +1,5 @@
+Run the following command to run the program:
+
+"/usr/spark2.0.1/bin/spark-submit --packages org.apache.bahir:spark-streaming-twitter_2.11:2.0.1,databricks:spark-corenlp:0.2.0-s_2.11,edu.stanford.nlp:stanford-corenlp:3.6.0 --jars ~/stanford-corenlp-3.7.0-models.jar target/scala-2.11/simple-project_2.11-1.0.jar"
+
+You will need the Stanford-corenlp-3.7.0-models.jar, Spark 2.0.1, and Scala 11.8 to run this.
